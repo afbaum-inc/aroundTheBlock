@@ -6,13 +6,13 @@
     <link rel="stylesheet" href="css/custom.css"></link>
   </head>
   <body>
-    <div>
+    <div class="main-wrap">
       <img id="logo" src="images/aTb.png" alt="Logo">
       <nav class="secondary-nav">
         <ul>
           <li>Home</li>
-          <li>About Us</li>
-          <li>Blog</li>
+          <li><a href= "html/aboutUs.html">About Us</a></li>
+          <li><a href="html/blog.html">Blog</a></li>
           <li>Contact</li>
         </ul>
       </nav>
@@ -20,9 +20,9 @@
         <nav class="primary-nav">
           <div class="clearfix">
             <ul>
-              <li>Buying</li>
-              <li>Seling</li>
-              <li>Property Management</li>
+              <li><a href= "html/buying.html">Buying</a></li>
+              <li><a href= "html/selling.html">Selling</a></li>
+              <li><a href= "html/property_management.html">Property Management</a></li>
             </ul>
           </div>
         </nav>
@@ -33,26 +33,44 @@
         </div>
       </header>
     </div>
+
+    <div class= "maincontent-container">
+      <h2>We Have Been Around The Block</h2>
+      <p>Around the Block is not your typical Real Estate Brokerage.  We assemble the most experienced, educated,
+        diverse and successful Realtors and technology to provide you with the tools and knowledge you need to do
+        all things Real Estate in Colorado. No problem is too big nor transaction too small.  Around the Block
+        Realty is Veteran Owned and Family Operated.  We are not the national franchises who beat you up with extra
+        fees.  We are a Colorado “home grown” independent Broker.  We tell you up front everything entailed in every
+        transaction.<br>Whether selling your home, looking for an apartment, managing properties, purchasing your
+        first home, investing in income properties, upgrading or purchasing a plot of land to build on, we have been
+        <strong>“Around the Block”</strong> a few times and can make sure you get the best deal with the least amount of hassle.</p>
+    </div>
     <footer>
-      <ul>
-        <li>Links</li>
-        <li>Home</li>
-        <li>About Us</li>
-        <li>Blog</li>
-      </ul>
-      <ul>
-        <li>Buyers</li>
-        <li>MLS Home Search</li>
-        <li>Home Buyer Resources</li>
-        <li>Mortgage Calculator</li>
-        <li>Our Listings</li>
-      </ul>
-      <ul>
-        <li>Sellers</li>
-        <li>Why List with aTb</li>
-        <li>Marketing Plan</li>
-        <li>Home Value Calculator</li>
-      </ul>
+      <div class="links-container col">
+        <ul>
+          <li>Links</li>
+          <li>Home</li>
+          <li><a href= "html/aboutUs.html">About Us</a></li>
+          <li><a href="html/blog.html">Blog</a></li>
+        </ul>
+      </div>
+      <div class="buyers-container col"
+        <ul>
+          <li>Buyers</li>
+          <li>MLS Home Search</li>
+          <li>Home Buyer Resources</li>
+          <li>Mortgage Calculator</li>
+          <li>Our Listings</li>
+        </ul>
+      </div>
+      <div class="sellers-container col">
+        <ul>
+          <li>Sellers</li>
+          <li>Why List with aTb</li>
+          <li>Marketing Plan</li>
+          <li>Home Value Calculator</li>
+        </ul>
+      </div>
     </footer>
       <!-- JavaScript -->
       <script src="app.js"></script>
