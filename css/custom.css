@@ -49,6 +49,9 @@ body {
     text-align: center;
     padding: 1em;
     magin: 1em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
 }
 
 footer {
@@ -127,4 +130,13 @@ h2 {
   .main-wrap {
     min-height: calc(100vh - 189px);
   }
+
+  .maincontent-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
+  .why-buy{order:1;}
+  .mortgage-calc{order:2;}
 }
