@@ -51,15 +51,16 @@
         <h3>Mortgage Calculator</h3>
         <form>
           Mortgage Amount:<br>
-          <input type="text" name="mortgage-amount"><br>
+          <input type="text" name="mortgage-amount" id='mortgage-amount'><br>
           Down Payment:<br>
-          <input type="text" name="down-payment"><br>
+          <input type="text" name="down-payment" id="downpayment"><br>
           Interest Rate (%):<br>
-          <input type="text" name="interest-rate"><br>
+          <input type="text" name="interest-rate" id="interest"><br>
           Mortgage Period:<br>
-          <input type="text" name="mortgage-period"><br>
+          <input type="text" name="mortgage-period" id="years"><br>
           Monthly Payments<br>
-          <input type="text" name="monthly-payments">
+          <input type="text" name="monthly-payments" id="payment">
+          <button class="mortgage-calculator" type="button" autofocus id="calc">calculate</button>
         </form>
       </div>
     </div>
@@ -92,6 +93,8 @@
       </div>
     </footer>
       <!-- JavaScript -->
-      <script src="app.js"></script>
+      <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+      <script src="../js/app.js"></script>
+
   </body>
 </html>

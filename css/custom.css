@@ -14,44 +14,11 @@ body {
 ==================================== */
 
 /* ---- Layout Containers ---- */
-
-.secondary-nav,
-.primary-nav {
-  color: black;
-  background-color: white;
-  padding: 1em;
-  margin: 0;
-}
-
-.secondary-nav li,
-.primary-nav li{
-  padding-right: .5em;
-  border-right: 1px solid #bbb;
-}
-
-
-.secondary-nav li:last-child {
-  color: white;
-  background-color:#4CAF50;
-  border-right: none;
-  border-radius: 10%;
-  width: 60px;
-}
-
-.page-title {
-  text-align: center;
-  background: url("../images/couch.jpg") no-repeat center;
+.jumbotron {
+  background-image: url("../images/couch.jpg");
+  background-repeat: no-repeat;
   background-size: cover;
-  height: 500px;
-}
-
-.maincontent-container {
-    text-align: center;
-    padding: 1em;
-    magin: 1em;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
+  text-align: center;
 }
 
 footer {
@@ -85,11 +52,6 @@ footer li:first-child {
 
 
 /* ---- Page ID ---- */
-#logo {
-  float:right;
-  padding-right: .5em;
-  margin-right: 1em;
-}
 
 
 
@@ -108,35 +70,4 @@ h2 {
   color: gray;
   margin-top: 0;
   padding-top: 1em;
-}
-
-/* =================================
-  Media Queries
-==================================== */
-
-@media (min-width: 769px) {
-  .secondary-nav li,
-  .primary-nav li {
-    display: inline;
-    padding: 1em;
-  }
-
-  .col {
-    display: inline-block;
-    width: 30%;
-    vertical-align: top;
-  }
-
-  .main-wrap {
-    min-height: calc(100vh - 189px);
-  }
-
-  .maincontent-container {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-  }
-
-  .why-buy{order:1;}
-  .mortgage-calc{order:2;}
 }
