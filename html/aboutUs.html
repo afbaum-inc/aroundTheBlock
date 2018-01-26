@@ -1,36 +1,57 @@
 <!doctype html>
 <html lang="en">
   <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
     <title>Around the Block Realty</title>
-    <link rel="stylesheet" href="../css/normalize.css"></link>
     <link rel="stylesheet" href="../css/custom.css"></link>
   </head>
+
   <body>
-    <div class="main-wrap">
-      <img id="logo" src="../images/aTb.png" alt="Logo">
-      <nav class="secondary-nav">
-        <ul>
-          <li><a href="../index.html">Home</a></li>
-          <li><a href= "aboutUs.html">About Us</a></li>
-          <li><a href="blog.html">Blog</a></li>
-          <li>Contact</li>
+
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="#">
+        <img src="../images/aTb.png" width="90" height="60" alt="Around the Block Logo">
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item active">
+            <a class="nav-link" href="../index.html">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../html/aboutUs.html">About Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../html/buying.html">Buying</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../html/selling.html">Selling</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../html/property_management.html">Protery Management</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled" href="../html/blog.html">Blog</a>
+          </li>
         </ul>
-      </nav>
-      <header>
-        <nav class="primary-nav">
-          <div class="clearfix">
-            <ul>
-              <li><a href= "buying.html">Buying</a></li>
-              <li><a href= "selling.html">Selling</a></li>
-              <li><a href= "property_management.html">Property Management</a></li>
-            </ul>
-          </div>
-        </nav>
-        <div class="page-title">
-          <h1>Around The Block Realty</h1>
-          <h2>Most experienced, educated and diverse realtors in Colorado Springs</h2>
+      </div>
+    </nav>
+
+        <div class="jumbotron">
+          <h1 class="display-4" id="jumbotron-title">Around The Block Realty</h1>
+          <p class="lead">Most experienced, educated and diverse realtors in Colorado Springs</p>
         </div>
-      </header>
+
+    </header>
     </div>
 
     <div class= "maincontent-container">
@@ -67,33 +88,58 @@
     </div>
 
     <footer>
-      <div class="links-container col">
-        <ul>
-          <li>Links</li>
-          <li><a href="../index.html">Home</a></li>
-          <li><a href= "#">About Us</a></li>
-          <li><a href="blog.html">Blog</a></li>
-        </ul>
-      </div>
-      <div class="buyers-container col"
-        <ul>
-          <li>Buyers</li>
-          <li>MLS Home Search</li>
-          <li>Home Buyer Resources</li>
-          <li>Mortgage Calculator</li>
-          <li>Our Listings</li>
-        </ul>
-      </div>
-      <div class="sellers-container col">
-        <ul>
-          <li>Sellers</li>
-          <li>Why List with aTb</li>
-          <li>Marketing Plan</li>
-          <li>Home Value Calculator</li>
-        </ul>
+      <div class="container">
+        <div class="row">
+          <div class="col-sm">
+            <div class="links-container col">
+              <h4>Links</h4>
+              <ul>
+                <li>Home</li>
+                <li><a href= "html/aboutUs.html">About Us</a></li>
+                <li><a href="html/blog.html">Blog</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-sm">
+            <div class="buyers-container col">
+              <h4>Buyers</h4>
+              <ul>
+                <li>MLS Home Search</li>
+                <li>Home Buyer Resources</li>
+                <li>Mortgage Calculator</li>
+                <li>Our Listings</li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-sm">
+            <div class="sellers-container col">
+              <h4>Sellers</h4>
+              <ul>
+                <li>Why List with aTb</li>
+                <li>Marketing Plan</li>
+                <li>Home Value Calculator</li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-sm">
+            <div class="pm-container col">
+              <h4>Property Management</h4>
+              <ul>
+                <li>Rentals</li>
+                <li>Marketing Plan</li>
+                <li>Contact Us</li>
+              </ul>
+            </div>
+          </div>
+        </div>
       </div>
     </footer>
-      <!-- JavaScript -->
-      <script src="app.js"></script>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <!-- JavaScript -->
+    <script src="app.js"></script>
   </body>
 </html>

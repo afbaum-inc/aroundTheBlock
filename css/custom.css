@@ -21,13 +21,18 @@ body {
   text-align: center;
 }
 
-footer {
-  background-color: #c5c8cc
+.lead {
+    color: black;
+    font-weight: bold;
+    font-size: 2em;
 }
 
-footer li:first-child {
-  text-decoration: underline;
-  color: #4CAF50;
+#jumbotron-title {
+  font-size: 5em;
+}
+
+footer {
+  background-color: #c5c8cc
 }
 
 .col {
@@ -36,8 +41,9 @@ footer li:first-child {
   margin: 1em;
   padding: 1em;
 }
+
 /* ---- Page class ---- */
-.featured-listings-button {
+#featured-listing-button {
   background-color: #4CAF50; /* Green */
   border: none;
   border-radius: 10%;
@@ -48,6 +54,10 @@ footer li:first-child {
   display: inline-block;
   font-size: 16px;
 
+}
+
+.card {
+  text-align: center;
 }
 
 
