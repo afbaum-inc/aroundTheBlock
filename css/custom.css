@@ -31,6 +31,12 @@ body {
   font-size: 5em;
 }
 
+@import "compass/css3";
+
+h2, .center {
+  text-align: center;
+}
+
 footer {
   background-color: #c5c8cc
 }

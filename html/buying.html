@@ -70,7 +70,7 @@
         <div class="col-sm-4">
           <div class="card">
             <div class="card-body">
-              <h5 class="card-title">Check out listings in Colorado SpringsSpecial title treatment</h5>
+              <h5 class="card-title">Check out listings in Colorado Springs</h5>
               <p class="card-text">MLS search of the lastest homes sales in Colorado Springs</p>
               <a href="#" class="btn btn-primary">MLS Search</a>
             </div>
@@ -86,13 +86,41 @@
                 <input type="text" name="mortgage-amount" id='mortgage-amount'><br>
                 Down Payment:<br>
                 <input type="text" name="down-payment" id="downpayment"><br>
+
+                <div class="form-check">
+                  <input class="form-check-input" type="radio" name="amountdown" id="percent" value="percent" checked>
+                  <label class="form-check-label" for="amountdown">
+                    %
+                  </label>
+                </div>
+                <div class="form-check">
+                  <input class="form-check-input" type="radio" name="amountdown" id="dollar" value="dollar">
+                  <label class="form-check-label" for="amountdown">
+                    $
+                  </label>
+                </div>
+
                 Interest Rate (%):<br>
                 <input type="text" name="interest-rate" id="interest"><br>
                 Mortgage Period:<br>
                 <input type="text" name="mortgage-period" id="years"><br>
-                Monthly Payments<br>
-                <input type="text" name="monthly-payments" id="payment">
+
+                <div class="form-check">
+                  <input class="form-check-input" type="radio" name="month-year" id="month" value="month" checked>
+                  <label class="form-check-label" for="month-year">
+                    Months
+                  </label>
+                </div>
+                <div class="form-check">
+                  <input class="form-check-input" type="radio" name="month-year" id="year" value="year">
+                  <label class="form-check-label" for="month-year">
+                    Years
+                  </label>
+                </div>
                 <button class="mortgage-calculator" type="button" autofocus id="calc">calculate</button>
+                Monthly Payments: <br>
+                <div id="payment">
+                </div>
               </form>
             </div>
           </div>
@@ -152,6 +180,6 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
     <!-- JavaScript -->
-    <script src="app.js"></script>
+    <script src="../js/app.js"></script>
   </body>
 </html>
