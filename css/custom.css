@@ -66,6 +66,10 @@ footer {
   text-align: center;
 }
 
+.weatherapi {
+  background-image: url("../images/partly_cloudy.png");
+}
+
 
 /* ---- Page ID ---- */
 
