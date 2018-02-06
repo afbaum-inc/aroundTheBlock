@@ -5,6 +5,7 @@
   box-sizing: border-box;
 }
 body {
+  font-family: fantasy;
 	line-height: 1.6;
 	color: #3a3a3a;
 }
@@ -13,81 +14,47 @@ body {
   Base Layout Styles
 ==================================== */
 
-/* ---- Layout Containers ---- */
-.jumbotron {
-  background-image: url("../images/couch.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  text-align: center;
-}
 
-.lead {
-    color: black;
-    font-weight: bold;
-    font-size: 2em;
-}
-
-#jumbotron-title {
-  font-size: 5em;
-}
-
-@import "compass/css3";
-
-h2, .center {
-  text-align: center;
-}
-
-footer {
-  background-color: #c5c8cc
-}
-
-.col {
-  list-style-type: none;
-  text-align: center;
-  margin: 1em;
-  padding: 1em;
-}
 
 /* ---- Page class ---- */
-#featured-listing-button {
-  background-color: #4CAF50; /* Green */
-  border: none;
-  border-radius: 10%;
-  color: white;
-  padding: 24px 12px;
+.titleHeader{
   text-align: center;
+  background-image: url("../images/csprings.png");
+  background-size: cover;
+
+}
+
+.companyTitle{
+  font-family: "Indie Flower", cursive;
+  font-size: 4em;
   text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
+  text-shadow: 2px 1px white;
+  margin: .5em;
+  color: black;
 
 }
 
-.card {
-  text-align: center;
+.companyContact{
+  font-family: "Times New Roman";
+  text-shadow: 2px 1px white;
+  margin: .5em;
 }
 
-.weatherapi {
-  background-image: url("../images/partly_cloudy.png");
+.options{
+  background-color: gray;
+  padding: .5em;
+  margin: .5em;
 }
-
-
 /* ---- Page ID ---- */
 
-
-
 /* ---- Page Elements ---- */
+header{
 
-h1 {
-  color: black;
-  font-size: 4em;
-  text-shadow: 2px 2px rgba(255, 255, 255, 0.5);
-  margin-top: 0;
-  padding-top: 1em;
 }
 
-h2 {
-  font-size: 2em;
-  color: gray;
-  margin-top: 0;
-  padding-top: 1em;
-}
+
+/* =================================
+  Media Querry
+==================================== */
+
+@media{}
