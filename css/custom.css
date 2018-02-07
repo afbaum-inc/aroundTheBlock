@@ -18,7 +18,7 @@ body {
 
 /* ---- Page class ---- */
 .titleHeader{
-  text-align: center;
+  text-align: left;
   background-image: url("../images/csprings.png");
   background-size: cover;
 
@@ -38,18 +38,34 @@ body {
   font-family: "Times New Roman";
   text-shadow: 2px 1px white;
   margin: .5em;
+  color: black;
+
+}
+
+.weather{
+  height: 50px;
+  width: 50px;
 }
 
 .options{
-  background-color: gray;
-  padding: .5em;
-  margin: .5em;
+  background-color: rgba(161, 188, 251, 0.3);
+  color: white;
+}
+
+.flexboxImage{
+  height: 180px;
+  width: 200px;
+}
+
+.mainContainer {
+  background-color: black;
 }
 /* ---- Page ID ---- */
 
 /* ---- Page Elements ---- */
-header{
 
+footer {
+  background-color: lightgrey;
 }
 
 

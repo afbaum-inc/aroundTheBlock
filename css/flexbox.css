@@ -3,10 +3,18 @@
 ===========================*/
 .mainContainer{
   display: flex;
-  flex-wrap: wrap;
   justify-content: space-around;
+  flex-wrap: wrap
 }
 
+.options{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  flex-direction: column;
+  width: 200px;
+  height: 400px;
+}
 
 
 /*===========================
