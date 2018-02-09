@@ -1,7 +1,9 @@
 /*===========================
   Flexbox
 ===========================*/
-.mainContainer{
+.mainContainer,
+.titlewrapper,
+.navbar {
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap
@@ -20,3 +22,26 @@
 /*===========================
   Media Query
 ===========================*/
+@media (min-width: 769px){
+  .navbar,
+  .mainNav,
+  .weatherapi {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    border-radius: 0;
+  }
+
+  .navItem {
+    padding: .5em;
+  }
+
+}
+
+@media (min-width: 1025) {
+
+  .navItem {
+    padding: 1em;
+  }
+
+}
