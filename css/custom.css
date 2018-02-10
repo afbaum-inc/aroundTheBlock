@@ -25,22 +25,11 @@ body {
 
 }
 
-.companyTitle{
-  font-family: "Indie Flower", cursive;
-  font-size: 4em;
-  text-decoration: none;
-  text-shadow: 2px 1px white;
-  margin: .5em;
-  color: black;
-
-}
-
 .companyContact{
   font-family: "Times New Roman";
   text-shadow: 2px 1px white;
   margin: .5em;
   color: black;
-  text-emphasis: triangle #D55;
 
 }
 
@@ -80,16 +69,25 @@ body {
 .scrollingMarque{
   font-size: 3em;
   text-align: center;
-  color: white;
+  color: black;
   font-family: "Times New Roman";
   padding: 2em;
-  margin-bottom: 4em;
+  margin-bottom: 3em;
+}
+
+.titletag{
+  color: darkred;
+  font-size: 1.5em;
+  color: white;
+  padding: .5em;
+  box-shadow: 5px 5px;
 }
 
 /* ---- Page class ---- */
 .options{
-  background-color: rgba(161, 188, 251, 0.3);
-  color: white;
+  background-color: white;
+  color: black;
+
 }
 
 .flexboxImage{
@@ -98,7 +96,13 @@ body {
 }
 
 .mainContainer {
-  background-color: black;
+  background-color: white;
+  padding-top: 4em;
+  padding-bottom: 4em;
+}
+
+.container{
+  padding-top: 2em;
 }
 /* ---- Page ID ---- */
 
@@ -106,6 +110,14 @@ body {
 
 footer {
   background-color: lightgrey;
+  align-items: baseline;
+}
+
+/* -------AboutUs Page -------*/
+
+.aboutUsImage{
+  height: 200px;
+  width: 175px;
 }
 
 
