@@ -24,13 +24,23 @@
   flex-direction: column;
 }
 
+.infoNav,
+.informationList{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+
 /*===========================
   Media Query
 ===========================*/
 @media (min-width: 769px){
   .navbar,
   .mainNav,
-  .weatherapi {
+  .weatherapi,
+  .agentRow {
     display: flex;
     flex-direction: row;
     justify-content: space-around;

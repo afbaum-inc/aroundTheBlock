@@ -1,4 +1,4 @@
-
+//array functions
 
 $('#calc').click(function() {
   //calculate the monthly payment on a morgtate amount
@@ -41,3 +41,35 @@ function amountDown() {
     return p
   }
 }
+
+var $input = $('#mortgage-amount');
+
+$input.on( "keyup", function( event ) {
+
+    // 1.
+    var selection = window.getSelection().toString();
+    if ( selection !== '' ) {
+        return;
+    }
+
+    // 2.
+    if ( $.inArray( event.keyCode, [38,40,37,39] ) !== -1 ) {
+        return;
+    }
+
+} );
+
+$input.on( "keyup", function( event ) {
+
+    // 1.
+    var selection = window.getSelection().toString();
+    if ( selection !== '' ) {
+        return;
+    }
+
+    // 2.
+    if ( $.inArray( event.keyCode, [38,40,37,39] ) !== -1 ) {
+        return;
+    }
+
+} );
