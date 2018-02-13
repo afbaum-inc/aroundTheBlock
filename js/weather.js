@@ -6,8 +6,25 @@ jQuery(document).ready(function($) {
   var location = parsed_json['location']['city'];
   var temp_f = parsed_json['current_observation']['temp_f'];
   var weather = parsed_json['current_observation']['weather'];
-  $('.weather').html('<img src="images/partlyCloudy.png" alt="company logo">');
-  $('.temp').text(temp_f + "°F");
+  if (weather === "Partly Cloudy"){
+    $('.weather').html('<img src="images/partlyCloudy.png" alt="partly cloudy">');
+    $('.temp').text(temp_f + "°F");
+  } else if (weather === "Sunny") {
+    $('.weather').html('<img src="images/sunny.png" alt="sunny">');
+    $('.temp').text(temp_f + "°F");
+  }
+  } else if (weather === "Sunny") {
+    $('.weather').html('<img src="images/cloudy.png" alt="sunny">');
+    $('.temp').text(temp_f + "°F");
+  }
+  } else if (weather === "Sunny") {
+    $('.weather').html('<img src="images/raining.png" alt="sunny">');
+    $('.temp').text(temp_f + "°F");
+  }
+  } else if (weather === "Sunny") {
+    $('.weather').html('<img src="images/snowing.png" alt="sunny">');
+    $('.temp').text(temp_f + "°F");
+  }
   }
   });
 });
