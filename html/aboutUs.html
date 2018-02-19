@@ -10,130 +10,161 @@
 
     <title>Around the Block Realty | Colorado Springs CO | About Us</title>
     <link rel="stylesheet" href="../css/custom.css"></link>
-    <link rel="stylesheet" href="../css/flexbox.css"></link>
   </head>
 
   <body>
 
     <header>
-      <div class="titleHeader">
-        <div class="titlewrapper">
-          <a class="navbar-brand" href="index.html">
-            <img src="../images/aTb.png" alt="company logo">
-            Around the Block Realty
-          </a>
-          <div class="phone">
-              <h2 class="companyContact">(719)422-9702 | Colorado Springs</h2>
-          </div>
-        </div>
-        <div class="navbar">
-          <ul class="mainNav">
-            <a href="../index.html">
-              <li class='navItem'>Home</li>
-            </a>
-            <a  href="aboutUs.html">
-              <li class='navItem'>About Us</li>
-            </a>
-            <a  href="buying.html">
-              <li class='navItem'>Buying</li>
-            </a>
-            <a  href="selling.html">
-              <li class='navItem'>Selling</li>
-            </a>
-            <a  href="listings.html">
-              <li class='navItem'>Listings</li>
-            </a>
-            <a  href="ColoradoSprings.html">
-              <li class='navItem'>Colorado Springs</li>
-            </a>
-            <a  href="blog.html">
-              <li class='navItem'>Blog</li>
-            </a>
+      <nav class="navbar navbar-expand-lg bg-faded">
+        <button class="navbar-toggler" type="button" data-toggle="collapse"
+        data-target="#navbarToggler" aria-controls="navbarToggler"
+        aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarToggler">
+          <ul class="nav navbar-nav pull-sm-left">
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown"
+              role="button" data-toggle="dropdown" aria-haspopup="true"
+              aria-expanded="false">
+                Agents
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#">Mike Morris</a>
+                <a class="dropdown-item" href="#">Mike Dunlap</a>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Properties</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown"
+              role="button" data-toggle="dropdown" aria-haspopup="true"
+              aria-expanded="false">
+                Buying/Selling
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#">Buying</a>
+                <a class="dropdown-item" href="#">Selling</a>
+              </div>
+            </li>
+          </ul>
+          <ul class="nav navbar-nav navbar-logo mx-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="../index.html">
+                <img src='../images/aTb.png' alt="company logo">
+              </a>
+            </li>
+          </ul>
+          <ul class="nav navbar-nav pull-sm-right">
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown"
+              role="button" data-toggle="dropdown" aria-haspopup="true"
+              aria-expanded="false">
+                Neighborhoods
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#">North Colorado Springs</a>
+                <a class="dropdown-item" href="#">West Colorado Springs</a>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Resources</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact</a>
+            </li>
           </ul>
         </div>
-        <div class="scrollingMarque">
-          <h1> <b class="titletag">Around the Block</b></h1>
-        </div>
+      </nav>
+
+      <div class="jumbotron" id="topJumbotron">
+        <h1 class="display-4">Around The Block Realty</h1>
+        <p class="lead">(719)422-9702 | Colorado Springs</p>
+        <hr class="my-4">
+        <p>Find your home <strong>Around the Block</strong></p>
+        <p class="lead">
+          <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
+        </p>
+      </div>
+
+      <div class="weatherapi">
+        <p class="temp"></p>
+        <p class="weather"></p>
       </div>
     </header>
 
-    <div class="agentRow">
-      <div class="agent">
-        <img src="../images/morris.png" alt="Mike Morris Picture" class="aboutUsImage">
-        <h3>Mike Morris</h3>
-        <h3>Employing Broker / Owner / President</h3>
-        <p>While in the Air Force I moved all over the country.  I know what it takes to relocate,
-        and I will do everything I can to make you feel at home in my adopted community of Colorado
-        Springs.  I also work with investors ensuring maximum returns on investments.  I graduated from
-        Texas A&M with a Bachelor's degree and obtained my MBA while in the Air Force.
-        I have been a Teacher, Airman (enlisted and officer), a First Responder and a
-        Private Contractor.  I finally decided to make my real estate hobby into my life's work.  I am
-        a proud husband
-        of a wonderful woman and I have three gifted children. <br> My goal in life is to help families
-        and individuals achieve their dreams.  I will get you the best deal.  I proudly serve fellow
-        Veterans, First Responders, and Teachers.</p>
-      </div>
-      <div class="agent">
-        <img src="../images/dunlap.png" alt="Mike Dunlap Picture" class="aboutUsImage">
-        <h2>Mike Dunlap</h2>
-        <h3>Agent</h3>
-        <p>My wife and I moved to Colorado a little over three years ago after deciding to sell
-        our home in Illinois.  We wanted to experience all that Colorado has to offer.  We are
-        enjoying the weather, the mountains and all  of the diversity.  <br>I have always been someone
-        who likes to stay busy, and decided that it was a perfect time to try a different career
-        path.  After getting my Bachelor's Degree in Public Relations, I decided to become a tradesman.
-        It was a great way to experience different aspects of the housing industry.  Real estate is the avenue
-        that aloows me to use my knowledge and combine it with the experienve that I have had out in the field.  <br>
-        Home improvement has been a passion of mine.  I engoy the outdoor, hiking, golfing, and site seeing.
-        Family time is very important to me, making sure to keep balance in my life.  The knowledge that I have
-        in home renovations lets me help my clients make the right choices for their needs.  I enjoy working with people
-        and seeing them accompish their dreams.</p>
+    <div class="container pt-4">
+      <div class="row">
+        <div class="col-md">
+          <h3 class="mb-4">Mike Morris</h3>
+          <img class="mb-4 img-fluid rounded" src="../images/morris.png" alt="Mike Morris" class="flexboxImage">
+          <h4>Employing Broker / Owner / President </h4>
+          <p>While in the Air Force I moved all over the country.  I know what it takes to relocate,
+          and I will do everything I can to make you feel at home in my adopted community of Colorado
+          Springs.  I also work with investors ensuring maximum returns on investments.  I graduated from
+          Texas A&M with a Bachelor's degree and obtained my MBA while in the Air Force.
+          I have been a Teacher, Airman (enlisted and officer), a First Responder and a
+          Private Contractor.  I finally decided to make my real estate hobby into my life's work.  I am
+          a proud husband
+          of a wonderful woman and I have three gifted children. <br> My goal in life is to help families
+          and individuals achieve their dreams.  I will get you the best deal.  I proudly serve fellow
+          Veterans, First Responders, and Teachers.</p>
+        </div>
+        <div class="col-md">
+          <h3 class="mb-4">Mike Dunlap</h3>
+          <img class="mb-4 img-fluid rounded" src="../images/dunlap.png" alt="company sign" class="flexboxImage">
+          <h4>Agent</h4>
+          <p>My wife and I moved to Colorado a little over three years ago after deciding to sell
+          our home in Illinois.  We wanted to experience all that Colorado has to offer.  We are
+          enjoying the weather, the mountains and all  of the diversity.  <br>I have always been someone
+          who likes to stay busy, and decided that it was a perfect time to try a different career
+          path.  After getting my Bachelor's Degree in Public Relations, I decided to become a tradesman.
+          It was a great way to experience different aspects of the housing industry.  Real estate is the avenue
+          that aloows me to use my knowledge and combine it with the experienve that I have had out in the field.  <br>
+          Home improvement has been a passion of mine.  I engoy the outdoor, hiking, golfing, and site seeing.
+          Family time is very important to me, making sure to keep balance in my life.  The knowledge that I have
+          in home renovations lets me help my clients make the right choices for their needs.  I enjoy working with people
+          and seeing them accompish their dreams.</p>
+        </div>
       </div>
     </div>
 
     <footer>
-      <div class="container">
+      <div class="container pt-4">
         <div class="row">
-          <div class="col-sm">
-            <div class="links-container col">
-              <h4>Links</h4>
-              <ul>
-                <li>Home</li>
-                <li><a href= "html/aboutUs.html">About Us</a></li>
-                <li><a href="html/blog.html">Blog</a></li>
-              </ul>
-            </div>
+          <div class="col-md">
+            <h3 class="mb-4">Links</h3>
+            <ul>
+              <li>Home</li>
+              <li>About Us</li>
+              <li>Blog</li>
+            </ul>
           </div>
-          <div class="col-sm">
-            <div class="buyers-container col">
-              <h4>Buyers</h4>
-              <ul>
-                <li>MLS Home Search</li>
-                <li>Home Buyer Resources</li>
-                <li>Mortgage Calculator</li>
-                <li>Our Listings</li>
-              </ul>
-            </div>
+          <div class="col-md">
+            <h3 class="mb-4">Buying</h3>
+            <ul>
+              <li>MLS Home Search</li>
+              <li>Home Buyer Resources</li>
+              <li>Mortgage Calculator</li>
+              <li>Our Listings</li>
+            </ul>
           </div>
-          <div class="col-sm">
-            <div class="sellers-container col">
-              <h4>Sellers</h4>
-              <ul>
-                <li>Why List with aTb</li>
-                <li>Marketing Plan</li>
-                <li>Home Value Calculator</li>
-              </ul>
-            </div>
+          <div class="col-md">
+            <h3 class="mb-4">Selling</h3>
+            <ul>
+              <li>Why list with ATB</li>
+              <li>Marketing Plan</li>
+              <li>Home Value Calculator</li>
+            </ul>
           </div>
-          <div class="col-sm">
-            <div class="pm-container col">
-              <h4>Property Management</h4>
-              <ul>
-                <li>Rentals</li>
-                <li>Managment Plan</li>
-                <li>Contact Us</li>
-              </ul>
-            </div>
+          <div class="col-md">
+            <h3 class="mb-4">Propety Managment</h3>
+            <ul>
+              <li>Rentals</li>
+              <li>Management Plan</li>
+              <li>Contact Us</li>
+            </ul>
           </div>
         </div>
       </div>
