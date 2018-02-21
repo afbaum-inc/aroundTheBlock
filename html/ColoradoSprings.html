@@ -47,8 +47,8 @@
                 Buying/Selling
               </a>
               <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item" href="#">Buying</a>
-                <a class="dropdown-item" href="#">Selling</a>
+                <a class="dropdown-item" href="buying2.html">Buying</a>
+                <a class="dropdown-item" href="selling.html">Selling</a>
               </div>
             </li>
           </ul>
@@ -67,8 +67,12 @@
                 Neighborhoods
               </a>
               <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item" href="#">North Colorado Springs</a>
-                <a class="dropdown-item" href="#">West Colorado Springs</a>
+                <a class="dropdown-item" href="#">Northeast Colorado Springs</a>
+                <a class="dropdown-item" href="#">East Colorado Springs</a>
+                <a class="dropdown-item" href="#">Middle Schooks Run</a>
+                <a class="dropdown-item" href="#">Downtown</a>
+                <a class="dropdown-item" href="#">Stratton Meadows</a>
+                <a class="dropdown-item" href="#">Pleasant Valley</a>
               </div>
             </li>
             <li class="nav-item">
@@ -91,13 +95,13 @@
         </p>
       </div>
 
-      <div class="weatherapi">
+      <!-- <div class="weatherapi">
         <p class="temp"></p>
         <p class="weather"></p>
       </div>
-    </header>
+    </header> -->
 
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light my-4" id="secondaryNav">
       <a class="navbar-brand" href="#">aTb</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -112,10 +116,10 @@
       </div>
     </nav>
 
-    <div class="container pt-2">
+    <div class="container pt-4">
       <div class="row">
-        <div class="col-sm-6">
-          <img class="mb-4 img-fluid rounded" src="../images/morris.png" alt="Mike Morris" class="flexboxImage">
+        <div class="col-sm-5 mx-4">
+          <img class="mb-4 img-fluid rounded" src="../images/springs.png" alt="csprings" class="flexboxImage">
           <h3>Colorado Springs, CO</h3>
           <p>Colorado Springs is the most populous city of El Paso County,
             Colorado, United States. It is located just east of the geographic
@@ -126,8 +130,7 @@
             mountains, Pikes Peak, at the eastern edge of the southern Rocky
             Mountains.</p>
         </div>
-        <div class="col-sm-6">
-          <img class="mb-4 img-fluid rounded" src="../images/dunlap.png" alt="company sign" class="flexboxImage">
+        <div class="col-sm-5 mx-4">
           <h3>Population</h3>
           <p>With an estimated population of 456,568 (2015), it is the second
             most populous city in the state of Colorado and the 48th most populous
@@ -140,8 +143,12 @@
             <a href="https://www.visitcos.com/media/awards-rankings/"> View
             other awards Colorado Springs has received.</a></p>
         </div>
-        <div class="col-sm-6">
-          <img class="mb-4 img-fluid rounded" src="../images/dunlap.png" alt="company sign" class="flexboxImage">
+      </div>
+    </div>
+
+    <div class="container pt-4">
+      <div class="row">
+        <div class="col-sm-5 mx-4">
           <h3>History of Colorado Springs</h3>
           <p>Colorado Springs was founded on July 31, 1871 by General William
             Palmer, with the intention of creating a high-quality resort
@@ -163,8 +170,8 @@
             front of Palmer High School, at the center of the intersection of
             Nevada Avenue and Platte Avenue.</p>
         </div>
-        <div class="col-sm-6">
-          <img class="mb-4 img-fluid rounded" src="../images/dunlap.png" alt="company sign" class="flexboxImage">
+        <div class="col-sm-5 mx-4">
+          <img class="mb-4 img-fluid rounded" src="../images/gods.png" alt="company sign" class="flexboxImage">
           <h3>Weather</h3>
           <p>Colorado Springs receives 17.4 inches of annual precipitation. Average
             snowfall for the area (included in the previous annual precipitation
@@ -183,40 +190,49 @@
     </div>
 
     <footer>
-      <div class="container pt-4">
+      <div class="container">
         <div class="row">
-          <div class="col-md">
-            <h3 class="mb-4">Links</h3>
-            <ul>
-              <li>Home</li>
-              <li>About Us</li>
-              <li>Blog</li>
-            </ul>
+          <div class="col-sm mt-4">
+            <div class="links-container col">
+              <h4>Links</h4>
+              <ul class="list-unstyled">
+                <li>Home</li>
+                <li>About Us</li>
+                <li>Blog</li>
+              </ul>
+            </div>
           </div>
-          <div class="col-md">
-            <h3 class="mb-4">Buying</h3>
-            <ul>
-              <li>MLS Home Search</li>
-              <li>Home Buyer Resources</li>
-              <li>Mortgage Calculator</li>
-              <li>Our Listings</li>
-            </ul>
+          <div class="col-sm mt-4">
+            <div class="buyers-container col">
+                <h4>Buying</h4>
+                <ul class="list-unstyled">
+                  <li>MLS Home Search</li>
+                  <li>Home Buyer Resources</li>
+                  <li>Mortgage Calculator</li>
+                  <li>Our Listings</li>
+                </ul>
+            </div>
           </div>
-          <div class="col-md">
-            <h3 class="mb-4">Selling</h3>
-            <ul>
-              <li>Why list with ATB</li>
-              <li>Marketing Plan</li>
-              <li>Home Value Calculator</li>
-            </ul>
+          <div class="col-sm mt-4">
+            <div class="sellers-container col">
+              <h4>Sellers</h4>
+              <ul class="list-unstyled">
+                <li>Listing with aTb</li>
+                <li>Marketing Plan</li>
+                <li>Home Value Calculator</li>
+                <li>Sellers Resources</li>
+              </ul>
+            </div>
           </div>
-          <div class="col-md">
-            <h3 class="mb-4">Propety Managment</h3>
-            <ul>
-              <li>Rentals</li>
-              <li>Management Plan</li>
-              <li>Contact Us</li>
-            </ul>
+          <div class="col-sm mt-4">
+            <div class="pm-container col">
+              <h4>Property Management</h4>
+              <ul class="list-unstyled">
+                <li>Rentals</li>
+                <li>Managment Plan</li>
+                <li>Contact Us</li>
+              </ul>
+            </div>
           </div>
         </div>
       </div>
