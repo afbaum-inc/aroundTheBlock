@@ -24,10 +24,11 @@ a{
   background-color: rgb(230, 102, 31) !important;
 }
 .jumbotron{
-  background-image: url('../images/home.png');
+  background-image: url('../images/csprings.png');
   background-repeat: no-repeat;
   background-size: cover;
   height: 30em;
+  text-align: left;
 }
 
 .dropdown-item,
@@ -35,7 +36,12 @@ a{
   color: black !important;
 }
 
-#homeing {
+#weather{
+  text-align: center;
+  font-size: 2em;
+}
+
+#homeimg {
     opacity: 0.75;
     filter: alpha(opacity=50); /* For IE8 and earlier */
 }
