@@ -8,148 +8,185 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
-    <title>Around the Block Realty</title>
-    <link rel="stylesheet" href="css/custom.css"></link>
-    <link rel="stylesheet" href="css/flexbox.css"></link>
-    <link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
+    <title>Around the Block Realty | Colorado Springs, CO</title>
+    <link rel="stylesheet" href="css/custom.css"><link>
   </head>
-
   <body>
 
-  <header>
-    <div class="titleHeader">
-      <div class="titlewrapper">
-        <a class="navbar-brand" href="index.html">
-          <img src="images/aTb.png" alt="company logo">
-          Around the Block Realty
-        </a>
-        <div class="phone">
-            <h2 class="companyContact">(719)422-9702 | Colorado Springs</h2>
-        </div>
-        <div class="weatherapi">
-          <p class="temp"></p>
-          <p class="weather"></p>
-        </div>
-      </div>
-      <div class="navbar">
-        <ul class="mainNav">
-          <li class='navItem'>Home</li>
-          <a  href="html/aboutUs.html">
-            <li class='navItem'>About Us</li>
-          </a>
-          <a  href="html/buying.html">
-            <li class='navItem'>Buying</li>
-          </a>
-          <a  href="html/selling.html">
-            <li class='navItem'>Selling</li>
-          </a>
-          <a  href="html/listings.html">
-            <li class='navItem'>Listings</li>
-          </a>
-          <a  href="html/ColoradoSprings.html">
-            <li class='navItem'>Colorado Springs</li>
-          </a>
-          <a  href="html/blog.html">
-            <li class='navItem'>Blog</li>
-          </a>
+    <nav class="navbar navbar-expand-lg bg-faded">
+      <button class="navbar-toggler" type="button" data-toggle="collapse"
+      data-target="#navbarToggler" aria-controls="navbarToggler"
+      aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarToggler">
+        <ul class="nav navbar-nav pull-sm-left">
+          <li class="nav-item d-lg-none">
+            <a class="nav-link" href="../index.html">Home</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown"
+            role="button" data-toggle="dropdown" aria-haspopup="true"
+            aria-expanded="false">
+              Agents
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="html/aboutUs.html">Mike Morris</a>
+              <a class="dropdown-item" href="html/aboutUs.html">Mike Dunlap</a>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="html/ColoradoSprings.html">Colorado Springs</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown"
+            role="button" data-toggle="dropdown" aria-haspopup="true"
+            aria-expanded="false">
+              Buying/Selling
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="html/buying2.html">Buying</a>
+              <a class="dropdown-item" href="html/selling.html">Selling</a>
+            </div>
+          </li>
+        </ul>
+        <ul class="nav navbar-nav navbar-logo mx-auto d-none d-lg-block">
+          <li class="nav-item">
+            <a class="nav-link" href="#">
+              <img src='images/aTb.png' alt="company logo" id="companyLogo">
+            </a>
+          </li>
+        </ul>
+        <ul class="nav navbar-nav pull-sm-right">
+          <li class="nav-item">
+            <a class="nav-link" href="#">Neighbothoods</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Resources</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contact</a>
+          </li>
         </ul>
       </div>
-      <div class="scrollingMarque">
-        <h1> <b class="titletag">Around the Block</b></h1>
-      </div>
-    </div>
-  </header>
+    </nav>
 
-  <div class="mainContainer">
-    <div class="options">
-      <h3>Buying with Around the Block</h3>
-      <img src="images/houseKeys.png" alt="company sign" class="flexboxImage">
-      <p>Around the Block will work with you to help you find
-      your dream house.</p>
+    <div class="jumbotron">
+      <h1 class="display-4">Around The Block Realty</h1>
+      <p class="lead">(719)422-9702 | Colorado Springs</p>
+      <hr class="my-4">
+      <p>Find your home <strong>Around the Block</strong></p>
+      <p class="lead">
+        <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
+      </p>
     </div>
-    <div class="options">
-      <h3>Selling with Around the Block</h3>
-      <img src="images/mikeaTb.png" alt="company sign" class="flexboxImage">
-      <p>Around the Block will ensure your house sells</p>
-    </div>
-    <div class="options">
-      <h3>Around the Block Propery Managment</h3>
-      <img src="images/pmimage.png" alt="company sign" class="flexboxImage">
-      <p>Around the Block will take the work out of owning a rental</p>
-    </div>
-  </div>
 
-  <div class="aboutaTb">
-    <h2>We Have Been Around The Block</h2>
-    <p>Around the Block is not your typical Real Estate Brokerage.  We assemble
-      the most experienced, educated, diverse and successful Realtors and
-      technology to provide you with the tools and knowledge you need to do all
-      things Real Estate in Colorado. No problem is too big nor transaction too
-      small.  Around the Block Realty is Veteran Owned and Family Operated.  We
-      are not the national franchises who beat you up with extra fees.  We are
-      a Colorado “home grown” independent Broker.  We tell you up front
-      everything entailed in every transaction.<br>
-      Whether selling your home, looking for an apartment, managing properties,
-      purchasing your first home, investing in income properties, upgrading or
-      purchasing a plot of land to build on, we have been “Around the Block” a
-      few times and can make sure you get the best deal with the least amount
-      of hassle.</p>
-  </div>
-  <footer>
     <div class="container">
-      <div class="row">
-        <div class="col-sm">
-          <div class="links-container col">
-            <h4>Links</h4>
-            <ul>
-              <li>Home</li>
-              <li><a href= "html/aboutUs.html">About Us</a></li>
-              <li><a href="html/blog.html">Blog</a></li>
-            </ul>
+      <div class="row justify-content-center" id="weather">
+        <div class="col-md-2 pt-4">
+          <div class="weatherapi">
+            <p class="temp"></p>
           </div>
         </div>
-        <div class="col-sm">
-          <div class="buyers-container col">
-            <h4>Buyers</h4>
-            <ul>
-              <li>MLS Home Search</li>
-              <li>Home Buyer Resources</li>
-              <li>Mortgage Calculator</li>
-              <li>Our Listings</li>
-            </ul>
-          </div>
-        </div>
-        <div class="col-sm">
-          <div class="sellers-container col">
-            <h4>Sellers</h4>
-            <ul>
-              <li>Listing with aTb</li>
-              <li>Marketing Plan</li>
-              <li>Home Value Calculator</li>
-              <li>Sellers Resources</li>
-            </ul>
-          </div>
-        </div>
-        <div class="col-sm">
-          <div class="pm-container col">
-            <h4>Property Management</h4>
-            <ul>
-              <li>Rentals</li>
-              <li>Managment Plan</li>
-              <li>Contact Us</li>
-            </ul>
+        <div class="col-md-2 pt-">
+          <div class="weatherapi">
+            <p class="weather"></p>
           </div>
         </div>
       </div>
     </div>
-  </footer>
+
+    <div class="container pt-4">
+      <div class="row">
+        <div class="col-md">
+          <a href="html/buying2.html">
+            <div class="image_text">
+              <img class="mb-4 img-fluid rounded" src="images/houseKeys.png" alt="company sign" class="flexboxImage" id="homeimg">
+              <div class="centered">Buying</div>
+            </div>
+          </a>
+        </div>
+        <div class="col-md">
+          <a href="html/selling.html">
+            <div class="image_text">
+              <img class="mb-4 img-fluid rounded" src="images/mikeaTb.png" alt="company sign" class="flexboxImage" id="homeimg">
+              <div class="centered">Selling</div>
+            </div>
+          </a>
+        </div>
+        <div class="col-md">
+          <a href="html/property_management.html">
+            <div class="image_text">
+              <img class="mb-4 img-fluid rounded" src="images/renting.png" alt="company sign" class="flexboxImage" id="homeimg">
+              <div class="centered">Property Management</div>
+            </div>
+          </a>
+        </div>
+        <div class="col-md">
+          <a href="html/ColoradoSprings.html">
+            <div class="image_text">
+              <img class="mb-4 img-fluid rounded" src="images/academy.png" alt="AirFoce Academy" class="flexboxImage" id="homeimg">
+              <div class="centered">Relocating</div>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-sm mt-4">
+            <div class="links-container col">
+              <h4>Links</h4>
+              <ul class="list-unstyled">
+                <li>Home</li>
+                <li>About Us</li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-sm mt-4">
+            <div class="buyers-container col">
+                <h4>Buying</h4>
+                <ul class="list-unstyled footerList">
+                  <li>MLS Home Search</li>
+                  <li>Home Buyer Resources</li>
+                  <li>Mortgage Calculator</li>
+                  <li>Our Listings</li>
+                </ul>
+            </div>
+          </div>
+          <div class="col-sm mt-4">
+            <div class="sellers-container col">
+              <h4>Sellers</h4>
+              <ul class="list-unstyled footerList">
+                <li>Listing with aTb</li>
+                <li>Marketing Plan</li>
+                <li>Home Value Calculator</li>
+                <li>Sellers Resources</li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-sm mt-4">
+            <div class="pm-container col">
+              <h4>Property Management</h4>
+              <ul class="list-unstyled footerList">
+                <li>Rentals</li>
+                <li>Managment Plan</li>
+                <li>Contact Us</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-    <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.3.1.min.js"></script>
-    <!-- JavaScript -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <!-- Custom Jquery and Javascript -->
     <script src="js/app.js"></script>
     <script src="js/weather.js"></script>
   </body>
