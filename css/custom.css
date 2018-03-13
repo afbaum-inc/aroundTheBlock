@@ -23,6 +23,13 @@ a{
 .navbar{
   background-color: rgb(230, 102, 31) !important;
 }
+
+.navbar-toggler{
+    background-color: blue !important;
+    background-image: none;
+    border: 1px solid transparent;
+}
+
 .jumbotron{
   background-image: url('../images/csprings.png');
   background-repeat: no-repeat;
@@ -58,11 +65,8 @@ a{
   font-size: 2em;
 }
 
-.centered{
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+.sidebar{
+  background-color: rgb(230, 102, 31);
 }
 
 footer {
