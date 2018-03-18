@@ -24,3 +24,6 @@ The javascript function I created are:
 
 2. app.js
   a script for a mortgage calculator in my buying page.
+
+3. fontawesome-all.js
+    this is a plugin javaScript function which has the facebook and twitter images
