@@ -11,6 +11,7 @@ $('#calc').click(function() {
   $('#payment').html('<p>' + M + '</p>');
 });
 
+//make sure payment length is a number of months even if year is selected
 function paymentLength(){
   const length = $('input[name=month-year]:checked').val();
   console.log(length);
@@ -28,7 +29,7 @@ function paymentLength(){
 function amountDown() {
   const percentDollar = $('input[name=amountdown]:checked').val();
   console.log(percentDollar);
-  //calculate down payment based on percentage or dollar amount entered
+  //ensure payment is a dollar amount even if percent is selected
   if (percentDollar === 'percent') {
     const total = $('#mortgage-amount').val();
     const downpayment = $('#downpayment').val();
@@ -43,33 +44,3 @@ function amountDown() {
 }
 
 var $input = $('#mortgage-amount');
-
-$input.on( "keyup", function( event ) {
-
-    // 1.
-    var selection = window.getSelection().toString();
-    if ( selection !== '' ) {
-        return;
-    }
-
-    // 2.
-    if ( $.inArray( event.keyCode, [38,40,37,39] ) !== -1 ) {
-        return;
-    }
-
-} );
-
-$input.on( "keyup", function( event ) {
-
-    // 1.
-    var selection = window.getSelection().toString();
-    if ( selection !== '' ) {
-        return;
-    }
-
-    // 2.
-    if ( $.inArray( event.keyCode, [38,40,37,39] ) !== -1 ) {
-        return;
-    }
-
-} );
